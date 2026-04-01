@@ -1,0 +1,57 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Go build artifacts
+*.o
+*.a
+*.test
+*.out
+
+# Go coverage
+coverage.out
+coverage.html
+*.coverprofile
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency vendor directory (optional — remove if you vendor)
+vendor/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials
+credentials.json
+aws-credentials
+.aws/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test and debug artifacts
+__debug_bin*
+*.prof
+*.trace
+
+# Local config overrides
+*.local
+config.local.*
